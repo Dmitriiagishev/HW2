@@ -2,10 +2,12 @@
 
 using namespace std;
 
-int main(){
-	string username;
-	cout << "enter username\n";
-	cin >> username;
-	cout << "Hello World from " << username;
-	return 0;
+int
+main()
+{
+  string username;
+  cout << "enter username\n";
+  cin >> username;
+  cout << "Hello World from " << username;
+  return 0;
 }
